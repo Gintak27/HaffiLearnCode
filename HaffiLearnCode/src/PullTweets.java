@@ -7,7 +7,7 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken; 
 
 public class PullTweets {
-
+ 
 	public static void main(String[] args) {
 		Twitter twitter = new TwitterFactory().getInstance();
 		// Twitter Consumer key & Consumer Secret
